@@ -1,0 +1,30 @@
+.feedback {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  margin: var(--margin-component);
+  padding: 3px 5px;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  text-align: center;
+  display: inline-block;
+  border: 0;
+  transition-duration: var(--duration-short);
+}
+
+.btn:hover {
+  transform: var(--scale-small);
+}
+
+.entry,
+.notification {
+  margin: var(--margin-component);
+  display: block;
+}
+
+.value {
+  margin: var(--margin-component);
+  margin-left: 5px;
+}
